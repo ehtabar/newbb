@@ -2084,7 +2084,7 @@ input[type=submit]{
 .bime{
     
 }
-@media(min-width: 769px) {
+@media(min-width: 992px) {
     .col-sm-1 {
         width: 10%;
     }
@@ -2092,7 +2092,7 @@ input[type=submit]{
        margin-left: 38%;
     }
 }
-@media(max-width: 768px) {
+@media(max-width: 991px) {
     .row2 {
         margin-right: 30px;
     }
@@ -2127,7 +2127,7 @@ input[type=submit]{
     }
     #all {
         font-size: 18px !important;
-        padding-top: 4.1% !important;
+        padding-top: 2.1% !important;
         margin: 14px !important;
         margin-bottom: 10% !important;
     }
@@ -2136,7 +2136,7 @@ input[type=submit]{
     }
     .ques-cat-item {
     margin-bottom: 8%;
-    padding-top: 4.1%;
+    padding-top: 2.3%;
     }
     #request{
         width: 70%;
@@ -2151,6 +2151,8 @@ input[type=submit]{
     }
     .Heading2{
         margin-left: 13%;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
     }
 }
 .row3 {

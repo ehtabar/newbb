@@ -73,7 +73,7 @@
     teletype: {
       defaults: {
         delay: 10,
-        pause: 5000,
+        pause: 2500,
         text: []
       }
     }

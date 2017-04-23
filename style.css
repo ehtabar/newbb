@@ -2000,6 +2000,7 @@ input[type=submit]{
     border-radius: 4px;
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
     color: black;
+    font-weight: bolder;
 }
 .front-nav:hover {
     background: #eeeeee;
@@ -2040,6 +2041,7 @@ input[type=submit]{
     text-align: center;
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
     border-radius: 4px;
+    font-weight: bolder;
 }
 .ask-question:hover{
     background: #5ea9f7;
@@ -2130,6 +2132,8 @@ input[type=submit]{
         padding-top: 2.1% !important;
         margin: 14px !important;
         margin-bottom: 10% !important;
+        width: 80% !important;
+        margin-left: 15% !important;
     }
     .row3 {
         background: #1985F3 !important;
@@ -2151,8 +2155,10 @@ input[type=submit]{
     }
     .Heading2{
         margin-left: 13%;
-        padding-left: 0 !important;
-        margin-left: 0 !important;
+        padding-left: 5 !important;
+        margin-left: 10!important;
+        position: relative;
+        z-index: 1000;
     }
 }
 .row3 {
@@ -2177,6 +2183,7 @@ input[type=submit]{
     padding-top: 1%;
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
     border-radius: 4px;
+    font-weight: bolder;
 }
 #all:hover {
     background-color: #79e1a4;
@@ -2207,12 +2214,12 @@ input[type=submit]{
     font-weight: normal;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-weight: bolder;
 }
 .Heading2 {
     font-size: 16px;
-    margin-right: 5%; 
+    margin-right: 7%; 
     font-weight: normal;
-    padding-left: 20px;
 }
 .fa {
     font-size: 30px;
@@ -2249,7 +2256,6 @@ color: #fff;
 
 #copyright {
     margin: 0;
-    padding: 0px;
     background: #1f1f1f;
     color: #fff;
     clear: both;

@@ -2234,6 +2234,7 @@ input[type=submit]{
     font-family: 'vazir';
     color: white;
     font-weight: bold;
+    color: #fff;
 }
 #first-link:hover{
     background: #ffc44c;
@@ -2241,7 +2242,7 @@ input[type=submit]{
 #first-link:active{
     background: #cc8a00;
 }
-#logo {
+#logo-home {
     background: url(images/logo.png);
     height: 80px;
     width: 196px;
@@ -2267,5 +2268,4 @@ color: #fff;
     text-align:center;
     font-size:initial;
 }
-
 /*css ha da in catagory bezandi*/

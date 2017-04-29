@@ -180,7 +180,7 @@ h3 {
     line-height: 1.4;
 }
 h4 {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 1.4;
 }
 h5 {
@@ -1996,17 +1996,21 @@ input[type=submit]{
 .front-nav {
     height: 60px;
     padding-top: 15px;
-    background-color: white;
-    border-radius: 4px;
+    background-color: #4acdb9;
+    border-radius: 60px;
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
-    color: black;
+    color: #fff;
     font-weight: bolder;
+    margin-top:20px;
+    margin-bottom: 20px;
+    width:20%;
+    margin-left: 4%;
 }
 .front-nav:hover {
-    background: #eeeeee;
+    background: #3fae9d;
 }
 .front-nav:active {
-    background: #e0e0e0;
+    background: #349082;
 }
 .front-nav-a {
     text-align: center;
@@ -2052,6 +2056,8 @@ input[type=submit]{
 #category-of-ques {
     text-align: center;
     padding: 10px;
+    margin-bottom: 30px !important;
+    margin-top: 20px !important;
 }
 .row1 {
     margin-left: 8%;
@@ -2076,7 +2082,7 @@ input[type=submit]{
     background: #AEAEAE;
 }
 .porsideh{
-    background-color: #FAFAFA !important;
+    background-color: #eeeeee !important;
     direction: rtl;
     height: 240px;
 }
@@ -2092,6 +2098,9 @@ input[type=submit]{
     }
     .center1 {
        margin-left: 38%;
+    }
+    #hamkaran figure img {
+    margin: 50px !important;
     }
 }
 @media(max-width: 991px) {
@@ -2113,6 +2122,11 @@ input[type=submit]{
         font-size: medium;
         min-width: 80%;
         margin-right: 10%;
+        float: inherit !important;
+    }
+    .front-nav{
+        width: 80%;
+        margin-left: 10%;
     }
     .porsideh{
     	height: 330px;
@@ -2125,7 +2139,7 @@ input[type=submit]{
     	background-position:left;
     }
     .col-xs-3{
-        width: 41%;
+        width: 38%;
     }
     #all {
         font-size: 18px !important;
@@ -2153,13 +2167,21 @@ input[type=submit]{
     .frontpage-h3{
     color: #fff;
     }
+    .frontpage-h4{
+    color: #676767;
+    }
     .Heading2{
-        margin-left: 13%;
-        padding-left: 5 !important;
-        margin-left: 10!important;
+        margin-left: -20%;
+        padding-left: 50px !important;
         position: relative;
         z-index: 1000;
     }
+    .arz {
+    width: 50% !important;
+}
+.arz-com {
+    width: 50% !important;
+}
 }
 .row3 {
     background: #fafafa;
@@ -2167,10 +2189,13 @@ input[type=submit]{
 .row2 {
     background: #eeeeee;
 }
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
 .center1 {
     margin-top: -15px;
 }
-.category {}
 #all {
     height: 50px;
     background: #40d47e;
@@ -2267,5 +2292,45 @@ color: #fff;
 .frontpage-h3{
     text-align:center;
     font-size:initial;
+}
+.frontpage-h4{
+    text-align:center;
+    font-size:initial;
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-weight: normal;
+}
+#hamkaran {
+    display: inherit;
+    margin: 0 auto;
+    background-color: #fafafa;
+} 
+
+#hamkaran h2 {
+    text-align: center;
+}
+
+#hamkaran figure {
+    margin: 0 20px;
+}
+
+#hamkaran figure img {
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
+    display: table;
+    margin-bottom: 10px !important;
+}
+ #hamkaran figure {
+     margin: 0 !important;
+}
+.arz {
+    float: right;
+}
+.arz {
+    width: 25%;
+}
+.container-fluid{
+    background-color: #fafafa;
 }
 /*css ha da in catagory bezandi*/

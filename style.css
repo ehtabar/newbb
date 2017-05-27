@@ -1,11 +1,10 @@
 /*
-Theme Name: Schema by MyThemeSh
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big,op
-Theme URI: https://mythemeshop.com/themes/schema/
+Theme Name: Schema by MyThemeShop
+Theme URI: http://mythemeshop.com/themes/schema/
 Author: MyThemeShop
-Author URI: https://mythemeshop.com/
+Author URI: http://mythemeshop.com/
 Description: Schema is a fast loading, ultra-SEO friendly WordPress theme that features rich snippets in order to help search engines identify all parts of your site and rank you higher.
-Version: 3.1.9
+Version: 3.2.1
 Text Domain: schema
 Domain Path: /lang
 */
@@ -14,7 +13,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquot
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: 'vazir';
+    font-family: 'vazir' !important;
     vertical-align: baseline;
 }
 td{
@@ -162,8 +161,8 @@ body {
 }
 .post-single-content h1, .post-single-content h2, .post-single-content h3, .post-single-content h4, .post-single-content h5, .post-single-content h6 { text-transform: uppercase }
 .post-single-content h2 {
-	font-size: 24px;
-	font-family: 'vazir';
+    font-size: 24px;
+    font-family: 'vazir';
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
@@ -200,10 +199,10 @@ a {
 }
 a:hover { color: #125dab }
 a:link, a:visited, a:active { 
-	text-decoration: none;
-	font-family: 'vazir';
+    text-decoration: none;
+    font-family: 'vazir';
 
-	}
+    }
 /*-[ Main container ]---------------*/
 .main-container {
     width: 100%;
@@ -310,7 +309,7 @@ div#regular-header {
 .widget-header .textwidget {
     float: left;
     margin-top: 46px;
-    border-left: 1px solid #e0e0e0;
+    border-left: 1px solid #cccccc;
     padding-left: 20px;
 }
 #primary-navigation .navigation .menu {
@@ -742,9 +741,9 @@ hr {
 }
 /*-[ Search Form ]------------------*/
 #sidebar .widget.widget_search, #sidebar .widget.mts_subscribe_widget, #sidebar .widget.widget_product_search {
-	background: #fff;
-	box-shadow: 0 3px 3px rgba(0,0,0,.15);
-	border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 3px 3px rgba(0,0,0,.15);
+    border-radius: 4px;
   }
 #sidebar .widget.widget_search h3 { color: #fff }
 #searchform {
@@ -862,8 +861,8 @@ input::-webkit-input-speech-button {
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
 }
 .sidebar .widget h3 {
-	text-transform: uppercase;
-	font-family:'vazir';
+    text-transform: uppercase;
+    font-family:'vazir';
 }
 .widget .title {
     font-weight: bold;
@@ -1146,9 +1145,9 @@ footer .container {
     font-weight: 400!important;
 }
 .related-posts .title a:hover { 
-	color: #1985f3!important;
-	font-family: 'vazir';
-	 }
+    color: #1985f3!important;
+    font-family: 'vazir';
+     }
 .related-posts article header { margin-bottom: 0 }
 /*-[ Post Tags ]---------------------------------*/
 .tags {
@@ -1168,7 +1167,7 @@ footer .container {
     width: 100%;
     color: #1f1f1f;
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
-	border-radius: 4px;
+    border-radius: 4px;
 }
 .postauthor h4 {
     padding-top: 6px;
@@ -1358,7 +1357,7 @@ input#author, input#email, input#url, #comment { transition: all 0.25s ease-in-o
     border: none;
     transition: all 0.2s linear;
     box-shadow: 0 3px 3px rgba(0,0,0,.15);
-	border-radius: 4px;
+    border-radius: 4px;
 }
 #commentform input#submit:hover, #mtscontact_submit:hover {
     background: #4c4c4c;
@@ -1892,60 +1891,12 @@ footer .widget .wpt_widget_content .wpt-pagination a, footer .widget .wp_review_
 }
 .primary-slider .owl-controls .owl-dot.active span { cursor: default }
 
-.fixed-footer{position:fixed;bottom:0;right:0;left:0;background:#1985f3;text-align:center;padding:10px;z-index:2}@media (max-width:980px){.fixed-footer{padding:15px}.fixed-footer-text{display:block;margin-top:10px}}.fixed-footer strong{direction:ltr;display:inline-block}.fixed-footer-btn{display:inline-block;border:2px solid #ffad00;color:#fff;background:#ffad00;padding:5px 15px;border-radius:3px;margin-left:10px}.fixed-footer-btn:hover{border:2px solid #e69b00;background-color:#e69b00;color:#fff;text-decoration:none}
-
-/*..................
-[form]
-....................*/
-
-.button.gform_next_button{
-    background-color: #40d47e !important;
-    color: #fff;
-    border: 2px solid #40d47e;
-    box-shadow: 0 3px 3px rgba(0,0,0,.15);
-}
-
-.button.gform_next_button:hover{
-    font-weight: bold;
-    background: #33aa65;
-    border: 4px solid #33aa65;
-}
-input[type=submit]{
-    padding: 8px 12px;
-    font-size: 14px;
-    color: #fff;
-    border: 0px solid #e0e0e0;
-    font-family: inherit;
-    border-radius: 4px;
-    box-shadow:0 3px 3px rgba(0,0,0,.15);
-    background-color: #40d47e;
- }
-@font-face {
-    font-family: "Vazir";
-    src: url("fonts/Vasir.eot");
-    src: url("fonts/Vazir.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Vazir.woff") format("woff"),
-    url("fonts/Vazir.ttf") format("truetype"),
-    url("fonts/Vazir.svg#Vazir") format("svg");
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "Vazir";
-    src: url("fonts/Vazir-Bold.eot");
-    src: url("fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Vazir-Bold.woff") format("woff"),
-    url("fonts/Vazir-Bold.ttf") format("truetype"),
-    url("fonts/Vazir-Bold.svg#Vazir-Bold") format("svg"); 
-    font-weight: bold;
-}
-
 /*-[ first page ]-----------------------*/
 
 /* CSS used here will be applied after bootstrap.css */
 
 .carousel-inner{
-   background-image: url(images/2980b9.jpg);
+   background-image: url(/wp-content/uploads/2017/04/back.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2082,7 +2033,7 @@ input[type=submit]{
     background: #AEAEAE;
 }
 .porsideh{
-    background-color: #eeeeee !important;
+    background-color: #fafafa !important;
     direction: rtl;
     height: 240px;
 }
@@ -2098,6 +2049,14 @@ input[type=submit]{
     }
     .center1 {
        margin-left: 38%;
+    }
+    #all {
+        margin-bottom: 45px !important;
+        margin-top: 20px !important;
+    }
+    #category-of-ques {
+        margin-bottom: 30px !important;
+        margin-top: 20px !important;
     }
     #hamkaran figure img {
     margin: 50px !important;
@@ -2122,21 +2081,21 @@ input[type=submit]{
         font-size: medium;
         min-width: 80%;
         margin-right: 10%;
-        float: inherit !important;
+    float: inherit !important;
     }
     .front-nav{
         width: 80%;
         margin-left: 10%;
     }
-    .porsideh{
-    	height: 350px;
+       .porsideh{
+        height: 350px;
     }
     #first-link {
-    	min-width: 170px;
+        min-width: 170px;
     } 
     .carousel-inner{
-    	height: 400px;
-    	background-position:left;
+        height: 400px;
+        background-position:left;
     }
     .col-xs-3{
         width: 38%;
@@ -2145,7 +2104,8 @@ input[type=submit]{
         font-size: 18px !important;
         padding-top: 2.1% !important;
         margin: 14px !important;
-        margin-bottom: 10% !important;
+                width: 80% !important;
+margin-bottom: 10% !important;
         width: 80% !important;
         margin-left: 10% !important;
     }
@@ -2171,23 +2131,23 @@ input[type=submit]{
     color: #676767;
     }
     .Heading2{
-        margin-left: -35px;
+        margin-left: -35%;
         padding-left: 70px !important;
         position: relative;
         z-index: 1000;
     }
     .arz {
     width: 50% !important;
-}
-.arz-com {
+    }
+    .arz-com {
     width: 50% !important;
-}
+    }
 }
 .row3 {
-    background: #fafafa;
+    background: #fff;
 }
 .row2 {
-    background: #eeeeee;
+    background: #fafafa;
 }
 .row {
     margin-left: 0px !important;
@@ -2243,8 +2203,9 @@ input[type=submit]{
 }
 .Heading2 {
     font-size: 16px;
-    margin-right: 7%; 
+    margin-right: 5%; 
     font-weight: normal;
+    padding-left: 20px;
 }
 .fa {
     font-size: 30px;
@@ -2268,7 +2229,7 @@ input[type=submit]{
     background: #cc8a00;
 }
 #logo-home {
-    background: url(images/logo.png);
+    background: url(/wp-content/uploads/2017/04/wp-logo.png);
     height: 80px;
     width: 196px;
     background-size: cover;
@@ -2279,7 +2240,6 @@ text-align: center;
 margin-top: 40px;
 color: #fff;
 }
-
 #copyright {
     margin: 0;
     background: #1f1f1f;
@@ -2287,7 +2247,6 @@ color: #fff;
     clear: both;
     text-align: center;
     line-height: 28px;
-
 }
 .frontpage-h3{
     text-align:center;
@@ -2303,7 +2262,7 @@ color: #fff;
 #hamkaran {
     display: inherit;
     margin: 0 auto;
-    background-color: #fafafa;
+    background-color: #fff;
 } 
 
 #hamkaran h2 {
@@ -2331,6 +2290,98 @@ color: #fff;
     width: 25%;
 }
 .container-fluid{
-    background-color: #fafafa;
+    background-color: #fff;
 }
 /*css ha da in catagory bezandi*/
+/*..................
+[footer]
+....................*/
+.fixed-footer{position:fixed;bottom:0;right:0;left:0;background:#1985f3;text-align:center;padding:10px;z-index:2}@media (max-width:980px){.fixed-footer{padding:15px}.fixed-footer-text{display:block;margin-top:10px}}.fixed-footer strong{direction:ltr;display:inline-block}.fixed-footer-btn{display:inline-block;border:2px solid #ffad00;color:#fff;background:#ffad00;padding:5px 15px;border-radius:3px;margin-left:10px}.fixed-footer-btn:hover{border:2px solid #e69b00;background-color:#e69b00;color:#fff;text-decoration:none}
+
+/*..................
+[form]
+....................*/
+
+.button.gform_next_button{
+    background-color: #40d47e !important;
+    color: #fff;
+    border: 2px solid #40d47e;
+    box-shadow: 0 3px 3px rgba(0,0,0,.15);
+}
+
+.button.gform_next_button:hover{
+    font-weight: bold;
+    background: #33aa65;
+    border: 4px solid #33aa65;
+}
+input[type=submit]{
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    border: 0px solid #e0e0e0;
+    font-family: inherit;
+    border-radius: 4px;
+    box-shadow:0 3px 3px rgba(0,0,0,.15);
+    background-color: #40d47e;
+ }
+
+.button.gform_next_button:hover{
+    font-weight: bold;
+    background: #33aa65;
+    border: 4px solid #33aa65;
+}
+gform_previous_button:{
+    background: #fafafa;
+    border: none;
+}
+gform_previous_button:hover{
+    background: #eeeeee;
+    border: 2px solid #e0e0e0;
+}
+gform_previous_button:active{
+    background: #e0e0e0;
+    border: 2px solid #c1c1c1;
+}
+
+.page-id-14668 .breadcrumb {
+display: none !important;
+}
+.page-id-14654 .breadcrumb {
+display: none !important;
+}
+.page-id-14654 .breadcrumb {
+display: none !important;
+}
+.page-id-14670 .breadcrumb {
+display: none !important;
+}
+.page-id-14672 .breadcrumb {
+display: none !important;
+}
+.page-id-14675 .breadcrumb {
+display: none !important;
+}
+.page-id-14668 .fixed-footer {
+display: none !important;
+}
+.page-id-14654 .fixed-footer {
+display: none !important;
+}
+.page-id-14654 .fixed-footer {
+display: none !important;
+}
+.page-id-14670 .fixed-footer {
+display: none !important;
+}
+.page-id-14672 .fixed-footer {
+display: none !important;
+}
+.page-id-14675 .fixed-footer {
+display: none !important;
+}
+.page-id-14648 .breadcrumb {
+display: none !important;
+}
+.page-id-14648 .fixed-footer {
+display: none !important;
+}
